@@ -7,7 +7,7 @@ public class Cart {
     public void addDigitalVideoDisc(DigitalVideoDisc a) {
         if (itemsOrdered.size() < MAX_NUMBERS_ORDERED) {
             itemsOrdered.add(a);
-            System.out.println("The disc has been added.");
+            System.out.println(a.getTitle() + " has been added.");
             System.out.println("Cost: " + totalCost());
         } else {
             System.out.println("The cart is full!");
