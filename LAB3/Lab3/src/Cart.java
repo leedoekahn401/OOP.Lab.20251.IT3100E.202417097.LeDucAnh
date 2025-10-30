@@ -1,6 +1,5 @@
+package Lab3.src;
 import java.util.LinkedList;
-
-import Lab3.src.DigitalVideoDisc;
 
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
@@ -9,7 +8,7 @@ public class Cart {
     public void addDigitalVideoDisc(DigitalVideoDisc a) {
         if (itemsOrdered.size() < MAX_NUMBERS_ORDERED) {
             itemsOrdered.add(a);
-            System.out.println(a.getTitle() + " has been added.");
+            System.out.println("The disc has been added.");
             System.out.println("Cost: " + totalCost());
         } else {
             System.out.println("The cart is full!");
@@ -31,4 +30,19 @@ public class Cart {
             System.out.println("The disc is not in the cart.");
         }
     }
+    /**
+    public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
+        for (int i = 0; i < dvdList.length; i++) {
+            addDigitalVideoDisc(dvdList[i]);
+        }
+    }
+    **/
+
+    //This work better
+    public void addDigitalVideoDisc(DigitalVideoDisc... dvds) {
+        for (DigitalVideoDisc dvd : dvds) {
+            this.addDigitalVideoDisc(dvd);
+        }
+    }
+
 }
