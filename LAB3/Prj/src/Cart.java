@@ -32,23 +32,4 @@ public class Cart {
             System.out.println("The disc is not in the cart.");
         }
     }
-    /*
-    public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
-        for (int i = 0; i < dvdList.length; i++) {
-            addDigitalVideoDisc(dvdList[i]);
-        }
-    }
-    */
-
-    //This work better
-    public void addDigitalVideoDisc(DigitalVideoDisc... dvds) {
-        for (DigitalVideoDisc dvd : dvds) {
-            addDigitalVideoDisc(dvd);
-        }
-    }
-
-    public void addDigitalVideoDisc(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
-        addDigitalVideoDisc(dvd1);
-        addDigitalVideoDisc(dvd2);
-    }
 }
