@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26fa03f0-9e6b-40be-a3f7-2a99d8d015aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3.2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/Lab3.2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/src/Aims.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/src/Aims.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/src/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/src/Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/src/DigitalVideoDisc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/Lab3/src/DigitalVideoDisc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB3/Prj/src/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/LAB3/Prj/src/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB3/Prj/src/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/LAB3/Prj/src/DigitalVideoDisc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +36,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;leedoekahn401&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/leedoekahn401/OOP.Lab.20251.IT3100E.202417097.LeDucAnh.git&quot;,
+    &quot;accountId&quot;: &quot;d363bac9-3c69-45e6-a3cc-cc2dc97f71d6&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
@@ -61,7 +64,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "topic/passing-parameter",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Document/oop_lab",
@@ -91,10 +94,19 @@
       <updated>1761794513635</updated>
       <workItem from="1761794514884" duration="355000" />
       <workItem from="1761794899618" duration="585000" />
+      <workItem from="1761802726626" duration="932000" />
+      <workItem from="1761803694207" duration="169000" />
+      <workItem from="1761804684328" duration="42000" />
+      <workItem from="1761804759305" duration="54000" />
+      <workItem from="1761804894374" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
