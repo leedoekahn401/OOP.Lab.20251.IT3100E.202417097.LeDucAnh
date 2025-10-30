@@ -1,0 +1,36 @@
+Index: LAB3/Lab3/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"dc813060-fb9d-47d7-83ba-25c31f057e88\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/../../LAB2/Aims.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../../LAB2/Cart.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../LAB2/Cart.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../Lab3.2/.idea/.gitignore\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../Lab3.2/.idea/misc.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../Lab3.2/.idea/modules.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../Lab3.2/.idea/vcs.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../Lab3.2/Lab3.2.iml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Lab3.iml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/System.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/../..\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 3\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"34lc8k68fi0A0Q6v59wzpogVZIk\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Aims.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Document/oop_lab/LAB3/Lab3\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"dc813060-fb9d-47d7-83ba-25c31f057e88\" name=\"Changes\" comment=\"\" />\r\n      <created>1761792658706</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1761792658706</updated>\r\n      <workItem from=\"1761792659904\" duration=\"1484000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/LAB3/Lab3/.idea/workspace.xml b/LAB3/Lab3/.idea/workspace.xml
+--- a/LAB3/Lab3/.idea/workspace.xml	(revision a8c6a5f5c208a1e19a62fd5bc154cd6314b2f67b)
++++ b/LAB3/Lab3/.idea/workspace.xml	(date 1761794510343)
+@@ -4,17 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="dc813060-fb9d-47d7-83ba-25c31f057e88" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/../../LAB2/Aims.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../LAB2/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB2/Cart.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Lab3.2/.idea/.gitignore" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Lab3.2/.idea/misc.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Lab3.2/.idea/modules.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Lab3.2/.idea/vcs.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Lab3.2/Lab3.2.iml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Lab3.iml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/System.java" beforeDir="false" />
+-    </list>
++    <list default="true" id="dc813060-fb9d-47d7-83ba-25c31f057e88" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -66,7 +56,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1761792658706</updated>
+-      <workItem from="1761792659904" duration="1484000" />
++      <workItem from="1761792659904" duration="1838000" />
+     </task>
+     <servers />
+   </component>

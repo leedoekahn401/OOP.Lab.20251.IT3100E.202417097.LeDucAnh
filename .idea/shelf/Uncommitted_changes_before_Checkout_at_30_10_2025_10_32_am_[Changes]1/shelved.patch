@@ -1,0 +1,89 @@
+Index: LAB3/Lab3/out/production/Lab3.2/Lab3/src/Cart.java
+===================================================================
+diff --git a/LAB3/Lab3/out/production/Lab3.2/Lab3/src/Cart.java b/LAB3/Lab3/out/production/Lab3.2/Lab3/src/Cart.java
+new file mode 100644
+--- /dev/null	(date 1761795144130)
++++ b/LAB3/Lab3/out/production/Lab3.2/Lab3/src/Cart.java	(date 1761795144130)
+@@ -0,0 +1,48 @@
++package Lab3.src;
++import java.util.LinkedList;
++
++public class Cart {
++    public static final int MAX_NUMBERS_ORDERED = 20;
++    LinkedList<DigitalVideoDisc> itemsOrdered = new LinkedList<>();
++
++    public void addDigitalVideoDisc(DigitalVideoDisc a) {
++        if (itemsOrdered.size() < MAX_NUMBERS_ORDERED) {
++            itemsOrdered.add(a);
++            System.out.println("The disc has been added.");
++            System.out.println("Cost: " + totalCost());
++        } else {
++            System.out.println("The cart is full!");
++        }
++    }
++
++    public double totalCost() {
++        double sum = 0;
++        for (int i = 0; i < itemsOrdered.size(); i++) {
++            sum += itemsOrdered.get(i).getCost();
++        }
++        return sum;
++    }
++
++    public void removeDigitalVideoDisc(DigitalVideoDisc a) {
++        if (itemsOrdered.remove(a)) {
++            System.out.println("The disc has been removed.");
++        } else {
++            System.out.println("The disc is not in the cart.");
++        }
++    }
++    /**
++     public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
++     for (int i = 0; i < dvdList.length; i++) {
++     addDigitalVideoDisc(dvdList[i]);
++     }
++     }
++     **/
++
++    //This work better
++    public void addDigitalVideoDisc(DigitalVideoDisc... dvds) {
++        for (DigitalVideoDisc dvd : dvds) {
++            this.addDigitalVideoDisc(dvd);
++        }
++    }
++
++}
+\ No newline at end of file
+Index: LAB3/Lab3/out/production/Lab3.2/Lab3/src/Aims.java
+===================================================================
+diff --git a/LAB3/Lab3/out/production/Lab3.2/Lab3/src/Aims.java b/LAB3/Lab3/out/production/Lab3.2/Lab3/src/Aims.java
+new file mode 100644
+--- /dev/null	(date 1761795082339)
++++ b/LAB3/Lab3/out/production/Lab3.2/Lab3/src/Aims.java	(date 1761795082339)
+@@ -0,0 +1,23 @@
++package Lab3.src;
++
++public class Aims {
++    public static void main(String[] args) {
++        Cart anOrder = new Cart();
++
++        DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King", "Animation", "Roger Allers", 87, (float)19.95);
++        DigitalVideoDisc dvd2 = new DigitalVideoDisc("Star Wars", "Science Fiction", "George Lucas", 124, (float)24.95);
++        DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladdin", "Animation", "John Musker", 90, (float)18.99);
++
++        anOrder.addDigitalVideoDisc(dvd1);
++        anOrder.addDigitalVideoDisc(dvd2);
++        anOrder.addDigitalVideoDisc(dvd3);
++
++        anOrder.addDigitalVideoDisc(dvd1,dvd2,dvd3);
++
++        System.out.println("Total cost is: " + anOrder.totalCost());
++
++        anOrder.removeDigitalVideoDisc(dvd1);
++
++        System.out.println("Total cost is: " + anOrder.totalCost());
++    }
++}
+\ No newline at end of file
+diff --git a/LAB3/Lab3/out/production/Lab3.2/Lab3/src/DigitalVideoDisc.java b/LAB3/Lab3/out/production/Lab3.2/Lab3/src/DigitalVideoDisc.java
+new file mode 100644
