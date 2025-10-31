@@ -36,7 +36,7 @@ public class Store {
     }
 
     public void printStore() {
-        System.out.println("**********STORE INVENTORY**********");
+        System.out.println("STORE INVENTORY");
         if (itemCount == 0) {
             System.out.println("The store is empty.");
         } else {
@@ -44,6 +44,6 @@ public class Store {
                 System.out.println((i + 1) + ". " + itemsInStore[i].toString());
             }
         }
-        System.out.println("***********************************");
+        System.out.println("---");
     }
 }
