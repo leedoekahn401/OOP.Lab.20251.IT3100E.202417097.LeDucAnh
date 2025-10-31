@@ -1,0 +1,14 @@
+Index: LAB3/.idea/misc.xml
+===================================================================
+diff --git a/LAB3/.idea/misc.xml b/LAB3/.idea/misc.xml
+deleted file mode 100644
+--- a/LAB3/.idea/misc.xml	(revision 37225db9c890c2e90f6ca270645fb07ce8d351e6)
++++ /dev/null	(revision 37225db9c890c2e90f6ca270645fb07ce8d351e6)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
