@@ -53,7 +53,7 @@ public class Cart {
     }
 
     public void printCart() {
-        System.out.println("***********************CART***********************");
+        System.out.println("CART");
         System.out.println("Ordered Items:");
         int count = 1;
         for (DigitalVideoDisc disc : itemsOrdered) {
@@ -63,7 +63,7 @@ public class Cart {
 
         // FIX: Re-used the totalCost() method instead of recalculating it here.
         System.out.println("Total cost: " + totalCost() + " $");
-        System.out.println("***************************************************");
+        System.out.println("---");
     }
 
     public void searchById(int id) {
