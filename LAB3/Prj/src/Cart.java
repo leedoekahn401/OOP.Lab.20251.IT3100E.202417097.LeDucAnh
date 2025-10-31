@@ -51,4 +51,60 @@ public class Cart {
         addDigitalVideoDisc(dvd1);
         addDigitalVideoDisc(dvd2);
     }
+
+    public void printCart() {
+        System.out.println("***********************CART***********************");
+        System.out.println("Ordered Items:");
+
+        // FIX: Replaced loop with a for-each loop.
+        // The variable 'qtyOrdered' did not exist.
+        // The array access '[i]' is invalid for a LinkedList.
+        int count = 1;
+        for (DigitalVideoDisc disc : itemsOrdered) {
+            System.out.println((count) + ". DVD - " + disc.toString());
+            count++;
+        }
+
+        // FIX: Re-used the totalCost() method instead of recalculating it here.
+        System.out.println("Total cost: " + totalCost() + " $");
+        System.out.println("***************************************************");
+    }
+
+    public void searchById(int id) {
+        boolean found = false;
+        System.out.println("Searching for DVD with ID: " + id);
+
+        // FIX: Replaced loop with a for-each loop.
+        // 'qtyOrdered' did not exist and '[i]' is invalid.
+        for (DigitalVideoDisc disc : itemsOrdered) {
+            if (disc.isIdMatch(id)) {
+                System.out.println("Found: " + disc.toString());
+                found = true;
+                break; // Stop after finding the first match
+            }
+        }
+
+        if (!found) {
+            System.out.println("No match found for ID: " + id);
+        }
+    }
+
+    public void searchByTitle(String title) {
+        boolean found = false;
+        System.out.println("Searching for DVD with title: \"" + title + "\"");
+
+        // FIX: Replaced loop with a for-each loop.
+        // 'qtyOrdered' did not exist and '[i]' is invalid.
+        for (DigitalVideoDisc disc : itemsOrdered) {
+            if (disc.isTitleMatch(title)) {
+                System.out.println("Found: " + disc.toString());
+                found = true;
+                // No 'break' here, so it will find all matches
+            }
+        }
+
+        if (!found) {
+            System.out.println("No match found for title: \"" + title + "\"");
+        }
+    }
 }

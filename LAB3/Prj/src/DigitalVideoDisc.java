@@ -1,35 +1,87 @@
 package Lab3.src;
-public class DigitalVideoDisc{
+
+public class DigitalVideoDisc {
+
     private String title;
     private String category;
     private String director;
     private int length;
     private float cost;
 
-    public DigitalVideoDisc(String title, String category, String director, int length, float cost){
+    private int id;
+    private static int nbDigitalVideoDiscs = 0;
+
+    public DigitalVideoDisc(String title) {
+        this.title = title;
+        nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs;
+    }
+
+    public DigitalVideoDisc(String title, String category, float cost) {
+        this.title = title;
+        this.category = category;
+        this.cost = cost;
+        nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs;
+    }
+
+    public DigitalVideoDisc(String title, String category, String director, float cost) {
+        this.title = title;
+        this.category = category;
+        this.director = director;
+        this.cost = cost;
+        nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs;
+    }
+
+    public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
         this.title = title;
         this.category = category;
         this.director = director;
         this.length = length;
         this.cost = cost;
+        nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs;
     }
 
-
-    public String getTitle(){
+    public String getTitle() {
         return title;
     }
-    public String getCategory(){
+    public String getCategory() {
         return category;
     }
-    public String getDirector(){
+    public String getDirector() {
         return director;
     }
-    public int length(){
+    public int getLength() {
         return length;
     }
-    public float getCost(){
+    public float getCost() {
         return cost;
     }
+    public int getId() {
+        return id;
+    }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
+    @Override
+    public String toString() {
+        return getTitle() +
+                " - " + (getCategory() != null ? getCategory() : "Unknown") +
+                " - " + (getDirector() != null ? getDirector() : "Unknown") +
+                " - " + (getLength() > 0 ? getLength() : "N/A") +
+                ": " + getCost() + " $";
+    }
+
+    public boolean isTitleMatch(String title) {
+
+        return this.getTitle().toLowerCase().contains(title.toLowerCase());
+    }
+
+    public boolean isIdMatch(int id) {
+        return this.id == id;
+    }
 }
