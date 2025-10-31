@@ -9,12 +9,12 @@ public class StoreTest {
         DigitalVideoDisc dvd2 = new DigitalVideoDisc("Star Wars", "Science Fiction", "George Lucas", 87, 24.95f);
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin","Animation", 18.99f);
 
-        System.out.println("--- Testing Add DVD ---");
+        System.out.println(" Testing Add DVD ");
         store.addDVD(dvd1);
         store.addDVD(dvd2);
         store.addDVD(dvd3);
         store.printStore();
-        System.out.println("\n--- Testing Remove DVD ---");
+        System.out.println("\n Testing Remove DVD ");
         store.removeDVD(dvd2);
         store.printStore();
         store.removeDVD(dvd2);
