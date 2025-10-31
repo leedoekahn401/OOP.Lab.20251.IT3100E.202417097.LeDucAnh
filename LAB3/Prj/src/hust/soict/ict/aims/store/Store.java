@@ -1,4 +1,7 @@
-package Lab3.src;
+package hust.soict.ict.aims.store;
+
+
+import hust.soict.ict.aims.disc.DigitalVideoDisc;
 
 public class Store {
     public static final int MAX_ITEMS_IN_STORE = 1000;

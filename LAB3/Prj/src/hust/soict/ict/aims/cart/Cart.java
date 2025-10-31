@@ -1,4 +1,6 @@
-package Lab3.src;
+package hust.soict.ict.aims.cart;
+
+import hust.soict.ict.aims.disc.DigitalVideoDisc;
 
 import java.util.LinkedList;
 

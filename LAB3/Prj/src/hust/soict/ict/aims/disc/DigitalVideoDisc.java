@@ -1,4 +1,4 @@
-package Lab3.src;
+package hust.soict.ict.aims.disc;
 
 public class DigitalVideoDisc {
 
