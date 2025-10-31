@@ -26,7 +26,6 @@ public class DigitalVideoDisc {
     }
 
     public void setTitle(String title) {
-
         this.title = title;
     }
 
@@ -35,7 +34,6 @@ public class DigitalVideoDisc {
     }
 
     public String getTitle() {
-
         return title;
     }
 
@@ -45,17 +43,14 @@ public class DigitalVideoDisc {
     }
 
     public String getDirector() {
-
         return director;
     }
 
     public int getLength() {
-
         return length;
     }
 
     public float getCost() {
-
         return cost;
     }
 
